@@ -41,5 +41,5 @@ Protected Resource
 http://localhost:8080/oauth2/test/ateam?access_token=d78dd4c7-41c3-443d-a85e-3716ceefc66f
 
 database setup:
-create oauth database in mysql
-run src/main/resources/import.sql againts oauth database
+1) create oauth database in mysql
+2) run src/main/resources/import.sql againts oauth database
