@@ -5,7 +5,7 @@ Spring OAuth 2.0 Demo
 ----------------------
 http://blog.rajithdelantha.com/2015/09/secure-your-rest-api-with-spring.html
 
-first step, create access_token and refresh_token.
+1st step, create access_token and refresh_token.
 ----------------------------
 ```java
 http://localhost:8080/oauth2/oauth/token?grant_type=password&client_id=jml-client-id&client_secret=12345&username=jml&password=password
@@ -21,7 +21,7 @@ http://localhost:8080/oauth2/oauth/token?grant_type=password&client_id=jml-clien
 }
 ```
 
-2nd step, create new access_token using the 1st step refresh_token
+2nd step, create new access_token using the 1st step refresh_token when access_token expired
 ---------------------------
 ```java
 http://localhost:8080/oauth2/oauth/token?grant_type=refresh_token&client_id=jml-client-id&refresh_token=967068eb-13d1-4d18-8dd8-b89b2124d5d6&client_secret=12345
