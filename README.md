@@ -47,9 +47,14 @@ scope: "read trust write"
 }
 ```
 
+access the secured resource using the access token in step 2
+
 Protected Resource
 ------------------
-http://localhost:8080/oauth2/test/ateam?access_token=d78dd4c7-41c3-443d-a85e-3716ceefc66f
+http://localhost:8080/oauth2/test/dataparam?access_token=d78dd4c7-41c3-443d-a85e-3716ceefc66f
+
+http://localhost:8080/oauth2/test is the context, dataparam is the GET request parameter
+that will be captured in JSONController
 
 database setup:
 ------------------
