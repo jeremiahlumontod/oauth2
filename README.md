@@ -56,7 +56,7 @@ scope: "read trust write"
 }
 ```
 
-access the secured resource using the access token in step 2
+access the secured resource using the access token in step 1
 
 Protected Resource
 ------------------
