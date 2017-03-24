@@ -37,6 +37,7 @@ public class OauthRepository {
         return jdbcTemplate.queryForObject(FETCH_BY_CLIENT_ID, new Object[]{clientId}, new RowMapper<BaseClientDetails>() {
             @Override
             public BaseClientDetails mapRow(ResultSet rs, int i) throws SQLException {
+            													//client_id	       resource_ids     scope     authorized_grant_types  authorities      web_server_redirect_uri
                 BaseClientDetails details = new BaseClientDetails(rs.getString(1), rs.getString(3), rs.getString(4), rs.getString(5), rs.getString(7), rs.getString(6));
                 details.setClientSecret(rs.getString(2));
                 if (rs.getObject(8) != null) {

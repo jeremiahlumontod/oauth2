@@ -7,6 +7,15 @@ Spring OAuth 2.0 Demo
 go to this url for basic understanding:
 http://blog.rajithdelantha.com/2015/09/secure-your-rest-api-with-spring.html
 
+this is a small project illustrating the usage of spring security, oauth, spring data jpa, custom authentication (because we can also do oauth using the existing 
+authentication system like logging in to an email account), spring mvc, spring web, spring jersey, etc
+
+although this is a very small project, the technology stack used is very usable in projects where authentication is required. if we mix this with
+TLS/SSL to encrypt communication we will have a pretty solid web application when it comes to security. 
+
+no documentation is provided, but the code is understandable since its small
+
+
 
 pre-requisite:
 1) java version 1.8 installed
