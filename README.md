@@ -3,7 +3,18 @@ Oauth 2 Demo
 
 Spring OAuth 2.0 Demo
 ----------------------
+
+go to this url for basic understanding:
 http://blog.rajithdelantha.com/2015/09/secure-your-rest-api-with-spring.html
+
+
+pre-requisite:
+-java version 1.8 installed
+-maven 3.0.3 (tested on my machine)
+-internet connection since this will download maven dependency on the net
+-go to root of the project where pom.xml is located then execute:
+ mvn jetty:run
+
 
 1st step, create access_token and refresh_token.
 ----------------------------
