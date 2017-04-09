@@ -27,11 +27,10 @@ pre-requisite:
 
 1st step, create access_token and refresh_token.
 ----------------------------
-```java
-http://localhost:8080/oauth2/oauth/token?grant_type=password&client_id=jml-client-id&client_secret=12345&username=jml&password=password
-```
 
-```java
+http://localhost:8080/oauth2/oauth/token?grant_type=password&client_id=jml-client-id&client_secret=12345&username=jml&password=password
+
+
 {
 	"access_token": "d89d6df4-ef58-4f6e-9cd9-24e25da57ad7",
 	"token_type": "bearer",
@@ -39,7 +38,7 @@ http://localhost:8080/oauth2/oauth/token?grant_type=password&client_id=jml-clien
 	"expires_in": 28,
 	"scope": "read trust write"
 }
-```
+
 
 access the secured resource using the access token in step 1
 
@@ -53,7 +52,7 @@ that will be captured in JSONController
 
 2nd step, create new access_token using the 1st step refresh_token when access_token expired
 ---------------------------
-```java
+
 http://localhost:8080/oauth2/oauth/token?grant_type=refresh_token&client_id=jml-client-id&refresh_token=56414046-1a04-4fb7-8f0c-12002cde8b81&client_secret=12345
 ```
 ```java
@@ -63,7 +62,7 @@ http://localhost:8080/oauth2/oauth/token?grant_type=refresh_token&client_id=jml-
 	"refresh_token": "56414046-1a04-4fb7-8f0c-12002cde8b81",
 	"expires_in": 28,
 	"scope": "read trust write"
-}```
+}
 
 use the new generated access_token for accessing web resource. use the new generated refresh_token to generate new access_token when access_token
 expired. repeat the process for succedding access_token generation
