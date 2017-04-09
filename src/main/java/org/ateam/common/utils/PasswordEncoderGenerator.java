@@ -1,8 +1,5 @@
 package org.ateam.common.utils;
 
-/**
- * Created by jml on 6/21/16.
- */
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 public class PasswordEncoderGenerator {

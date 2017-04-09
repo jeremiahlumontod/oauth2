@@ -10,6 +10,7 @@ CREATE TABLE auth_details (
 --insert into auth_details values('rajith','$2a$11$gxpnezmYfNJRYnw/EpIK5Oe08TlwZDmcmUeKkrGcSGGHXvWaxUwQ2');
 insert into auth_details values('jml','$2a$11$gxpnezmYfNJRYnw/EpIK5Oe08TlwZDmcmUeKkrGcSGGHXvWaxUwQ2');
 
+                                       
 -- jml/123456
 --insert into auth_details values('rajith','$2a$10$ipHyMpMJkHerQRmDksajXe7buuzBtu8rmX50mvdt5G4YfHXCZOMey');
 --insert into auth_details values('jml','$2a$10$ipHyMpMJkHerQRmDksajXe7buuzBtu8rmX50mvdt5G4YfHXCZOMey');
