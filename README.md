@@ -54,8 +54,7 @@ that will be captured in JSONController
 ---------------------------
 
 http://localhost:8080/oauth2/oauth/token?grant_type=refresh_token&client_id=jml-client-id&refresh_token=56414046-1a04-4fb7-8f0c-12002cde8b81&client_secret=12345
-```
-```java
+
 {
 	"access_token": "1918b2ad-2427-490a-bbcf-53ea8522fe09",
 	"token_type": "bearer",
