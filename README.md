@@ -73,4 +73,6 @@ database setup:
 ------------------
 
 1) create oauth database in mysql
-2) run src/main/resources/import.sql againts oauth database
+2) run src/main/resources/import.sql 
+   againts oauth database
+
