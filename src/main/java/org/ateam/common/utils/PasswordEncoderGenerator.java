@@ -1,4 +1,4 @@
-package org.ateam.common.dummy;
+package org.ateam.common.utils;
 
 /**
  * Created by jml on 6/21/16.
