@@ -28,7 +28,7 @@ pre-requisite:
 1st step, create access_token and refresh_token.
 ----------------------------
 
-http://localhost:8080/oauth2/oauth/token?grant_type=password&client_id=jml-client-id&client_secret=12345&username=jml&password=password
+http://localhost:8080/oauth2/oauth/token?grant_type=password&client_id=jml-client-id&client_secret=12345&username=jml&password=123456
 
 
 {

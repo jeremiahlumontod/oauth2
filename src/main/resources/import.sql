@@ -8,7 +8,8 @@ CREATE TABLE auth_details (
 -- rajith/password
 -- jml/123456
 --insert into auth_details values('rajith','$2a$11$gxpnezmYfNJRYnw/EpIK5Oe08TlwZDmcmUeKkrGcSGGHXvWaxUwQ2');
-insert into auth_details values('jml','$2a$11$gxpnezmYfNJRYnw/EpIK5Oe08TlwZDmcmUeKkrGcSGGHXvWaxUwQ2');
+--insert into auth_details values('jml','$2a$11$gxpnezmYfNJRYnw/EpIK5Oe08TlwZDmcmUeKkrGcSGGHXvWaxUwQ2');
+insert into auth_details values('jml','$2a$10$fmoVUJq1j40q13Vx0v2.ReisPtQTCXGvDVJt7k7DwOtOnqd1dL40m');
 
 
 DROP TABLE IF EXISTS oauth_client_details;
