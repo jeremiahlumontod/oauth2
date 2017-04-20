@@ -381,6 +381,9 @@
 					<webApp>
 						<contextPath>/oauth2</contextPath>
 					</webApp>
+					<httpConnector>
+          	     		<port>8888</port>
+        			</httpConnector>					
 				</configuration>
 			</plugin>
 
